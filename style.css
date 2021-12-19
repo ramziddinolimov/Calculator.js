@@ -8,3 +8,22 @@ body {
     background-image: linear-gradient(-60deg, #ff9768 0%, #9156e1 100%);
     font-family: 'Lato', sans-serif;
 }
+
+.calculator {
+    margin: 90px auto;
+    width: 368px;
+    height: 600px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.75);
+}
+
+.header{
+    height: 170px;
+    padding-top: 37px;
+    padding-bottom: 27px;
+    padding-right: 29px;
+    padding-left: 29px;
+    background-color: #212121;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: right;
+}
