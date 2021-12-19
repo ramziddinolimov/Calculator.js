@@ -91,3 +91,15 @@ body {
     border-bottom-right-radius: 5px;
 
 }
+
+.btn-indigo {
+    color: #fff;
+    font-size: 22px;
+    background-image: none;
+    background-color: #9156e1;
+}
+
+.btn:hover, .btn-indigo:hover, btn-big:hover {
+    filter: brightness(85%);
+    -webkit-filter: brightness(85%);
+}
