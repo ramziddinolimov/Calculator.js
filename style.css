@@ -27,3 +27,67 @@ body {
     border-top-right-radius: 5px;
     text-align: right;
 }
+
+.account {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #d98192;
+    font-size:18px;
+    text-align: right;
+}
+
+.account::placeholder {
+    color: #d98192;
+}
+
+.result {
+    width: 100%;
+    margin-top: 18px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 60px;
+}
+
+.result::placeholder {
+    color: #fff;
+}
+
+.main {
+    height: 500px;
+    display: table;
+}
+
+.btn {
+    width: 92px;
+    height: 92px;
+    padding: 39px;
+    border: none;
+    background-image: linear-gradient(to right, #f7f7f7 0%, #f1f1f1 100%);
+    font-size:22px;
+    color: #212121;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn:nth-child(17){
+    border-bottom-left-radius: 5px;
+}
+
+.btn-big {
+    position: absolute;
+    width: 184px;
+    height: 92px;
+    padding: 39px;
+    font-size: 22px;
+    background-color: #e62f89;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+
+}
